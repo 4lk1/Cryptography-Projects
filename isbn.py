@@ -63,7 +63,7 @@ def kerko_librin_online(isbn):
 
 # --- PROGRAMI KRYESOR ---
 print("=== VERIFIKUESI I LIBRIT (ISBN) ===")
-isbn_hyrje = input("Vendosni kodin ISBN (p.sh. 9780132350884 ose 0132350882): ")
+isbn_hyrje = input("Vendosni kodin ISBN:  ")
 
 # Hapi 1: Kontrolli i strukturës matematike
 if verifiko_isbn_lokal(isbn_hyrje):
